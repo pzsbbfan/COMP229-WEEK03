@@ -1,9 +1,13 @@
 {
-  "name": "wee03-part2",
-  "version": "0.0.0",
+  "name": "comp229-week3",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^14.00.0",
+    "npm": "^8.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.0",
@@ -16,5 +20,18 @@
     "jquery": "^3.6.1",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "demo app for comp229 week3",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pzsbbfan/COMP229-WEEK03.git"
+  },
+  "author": "Lucas Fan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pzsbbfan/COMP229-WEEK03/issues"
+  },
+  "homepage": "https://github.com/pzsbbfan/COMP229-WEEK03#readme"
 }
