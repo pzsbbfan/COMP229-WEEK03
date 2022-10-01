@@ -1,3 +1,9 @@
+/* 
+File name: app.css
+Student name: Zhikun Fan
+StudentID: 301250119
+Date 09/30/2022
+*/
 // IIFE -- Immediately Invoked Function Expression
 
 (function(){

@@ -9,7 +9,7 @@
   <!-- Main Content -->
 
       
-      <!-- Home Page -->
+      <!-- Section Home Page -->
       <% if(title=="Home"){%>
       <div class="mainbackground">
         <main class="container">
@@ -21,8 +21,9 @@
         </main>
       </div>
       <%} 
+      <!-- Section Home Page -->
       
-      
+      <!-- Section Project Page -->
       else if(title=="Projects"){%>
       <div class="mainbackground">
         <main class="container">
@@ -31,6 +32,8 @@
             <div class="accordion accordion-flush " style="margin-top: 20%;" id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
+
+                  <!-- button direct to about page -->
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                     C# Scientific Calculator
                   </button>
@@ -83,7 +86,12 @@
         </main>
       </div>
       <%}
+      <!-- Section Project Page -->
+
+      <!-- Section Contact Page -->
       else if(title=="Contact"){%>
+
+        <!-- use form for contact page to get user info -->
         <form class="text-bg-light p-3 text-start">
           <h1 class="display-4 text-center" style="font-style: Simplicia;" >Get In Touch!</h1>
           <div class="mb-3">
@@ -115,6 +123,7 @@
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
 
+          <!-- Display my contact info -->
           <div class="row">
             <div class="col-lg-12 d-flex justify-content-around">
               <ul class="contactlist list-unstyled text-center">
@@ -133,10 +142,15 @@
             </div>
           </div>
       <%}
+      <!-- Section Contact Page -->
+
+      <!-- Section Service Page -->
       else if(title=="Services"){%>
         <div class="servicebackground">
           <main class="container">
             <div class="jumbotron text-center">
+
+              <!-- Use carousel to show image and description -->
               <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -179,7 +193,9 @@
           </main>
         </div>
       <%}
+      <!-- Section Service Page -->
 
+      <!-- Section About Page -->
       else if(title=="About"){%>
         <div class="mainbackground">
           <main class="container">
@@ -195,6 +211,7 @@
           </main>
         </div>
         <%}%>
+      <!-- Section About Page -->
 
       
 
