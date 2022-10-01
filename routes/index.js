@@ -16,12 +16,6 @@ router.get('/about', function(req, res, next) {
   res.render('index', { title: 'About'});
 });
 
-/* GET Products page. */
-router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'Products'});
-});
-
-
 /* GET Services page. */
 router.get('/services', function(req, res, next) {
   res.render('index', { title: 'Services'});
@@ -32,6 +26,11 @@ router.get('/services', function(req, res, next) {
 /* GET Contact Us page. */
 router.get('/contact', function(req, res, next) {
   res.render('index', { title: 'Contact'});
+});
+
+/* GET Projects page. */
+router.get('/projects', function(req, res, next) {
+  res.render('index', { title: 'Projects'});
 });
 
 
